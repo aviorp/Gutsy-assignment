@@ -1,7 +1,5 @@
-import { Menu, Switch, Transition } from "@headlessui/react";
+import { Switch } from "@headlessui/react";
 import { useState } from "react";
-import { Link } from "react-router-dom";
-import { NAVBAR_ITEMS, NavbarItem } from "./constants";
 export const Navbar = () => {
   const [darkMode, setDarkMode] = useState(false);
   const handleDarkMode = () => {
